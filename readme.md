@@ -1,4 +1,4 @@
-# Bahikhata
+# KhataBook
 
 A native Android personal ledger built with Kotlin and Jetpack Compose. Record
 dated income and expenses, review monthly totals, and keep an Excel workbook in
@@ -27,7 +27,7 @@ configuration. From a terminal, build with `./gradlew :app:assembleDebug`.
 	on the phone as a test user.
 5. Install and open the app, then tap **Connect** and approve Drive access.
 
-The app creates `Bahikhata Ledger.xlsx` in the signed-in user's Drive. It keeps
+The app creates `KhataBook Ledger.xlsx` in the signed-in user's Drive. It keeps
 the Drive file ID and replaces that workbook's transaction sheet on subsequent
 syncs. No OAuth secret is stored in the app. Amounts currently use Indian rupees
 (INR).

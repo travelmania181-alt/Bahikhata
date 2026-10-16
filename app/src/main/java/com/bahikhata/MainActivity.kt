@@ -77,10 +77,10 @@ import java.time.format.DateTimeFormatter
 import java.util.Currency
 import java.util.Locale
 
-private val Ink = Color(0xFF182D2A)
-private val Forest = Color(0xFF216454)
-private val Mint = Color(0xFFE0EEE8)
-private val Paper = Color(0xFFF5F7F3)
+private val Ink = Color(0xFF12352A)
+private val Forest = Color(0xFF087F5B)
+private val Mint = Color(0xFFF2F5F3)
+private val Paper = Color(0xFFF2F5F3)
 private val Coral = Color(0xFFB9573F)
 private val Quiet = Color(0xFF71807A)
 private val Line = Color(0xFFE2E8E2)
@@ -195,7 +195,7 @@ private fun LedgerScreen() {
                 }
                 Spacer(Modifier.width(12.dp))
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("Bahikhata", fontSize = 23.sp, fontWeight = FontWeight.Bold, color = Ink)
+                    Text("KhataBook", fontSize = 23.sp, fontWeight = FontWeight.Bold, color = Ink)
                     Text("PERSONAL LEDGER", fontSize = 10.sp, letterSpacing = 1.3.sp, color = Quiet)
                 }
                 Text(month.format(DateTimeFormatter.ofPattern("MMM yyyy", Locale.ENGLISH)).uppercase(),

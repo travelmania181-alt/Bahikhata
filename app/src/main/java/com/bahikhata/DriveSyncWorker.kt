@@ -60,7 +60,7 @@ internal class DriveSyncWorker(
 
     private fun createWorkbook(token: String, entries: List<LedgerEntry>) {
         val metadata = JSONObject()
-            .put("name", "Bahikhata Ledger.xlsx")
+            .put("name", "KhataBook Ledger.xlsx")
             .put("mimeType", XLSX_MIME)
             .toString()
             .toRequestBody(JSON_MEDIA_TYPE)
